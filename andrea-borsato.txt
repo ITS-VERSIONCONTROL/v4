@@ -1,0 +1,25 @@
+Nome: Andrea
+Cognome: Borsato
+Fila n.: 4
+Posizione n.: 5
+
+1. Il comando "git diff" permette di visualizzare le differenze tra 
+le diverse aree o anche di un singolo file. La staging area è una delle tre 
+aree con cui git lavora. Nella staging area verranno
+messi tutti quei file non ancora committati o non 
+ancora trackati.
+
+2. Il comando "git log" mostra tutte le commit effettuate
+raggiungibili dal parent specificato.
+I branch sono una ramificazione del source 
+tree originale che permette l'implementazioni 
+indipendenti. L'HEAD, semplicemente, è un puntatore 
+che permette la corretta individuazione del branch 
+corrente.
+
+3. Un repository remoto è come un database che archivia le modifiche 
+apportate al codice nel tempo. Tiene traccia della cronologia del 
+progetto e di chi ha apportato le modifiche, anche se sbagli qualcosa, 
+puoi sempre tornare allo stato precedente. Il comando "git push" ci 
+permette di applicare il commit dalla repository locale alla repository
+remota.
