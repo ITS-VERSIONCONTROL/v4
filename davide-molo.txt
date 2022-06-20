@@ -1,0 +1,27 @@
+Nome: Davide
+Cognome: Molo
+Fila n.: 4
+Posizione n.: 3
+
+1. "Git restore --staged <file>" è un comando di git che permette 
+di annullare e ripristinare le modifiche apportate ad un 
+determinato file presente nella staging area, spostando il file dalla
+stagin area alla unstaged area. La staging area è una delle tre 
+aree con cui git lavora. Nella staging area verranno
+messi tutti quei file non ancora committati o non 
+ancora trackati. 
+
+2. "Git merge <branch>" è un comando git che permette di effettuare
+il merge di due branch. Dal branch che si vuole mergare, utilizzando
+"git merge <branch>", verranno fetchate e scaricate le modifiche del
+branch specificato. I branch sono una ramificazione del source tree 
+originale che permette l'implementazioni indipendenti. 
+L'HEAD, semplicemente, è un puntatore che permette la corretta 
+individuazione del branch corrente.
+
+3.  Un repository remoto è come un database che archivia le modifiche 
+apportate al codice nel tempo. Tiene traccia della cronologia del 
+progetto e di chi ha apportato le modifiche, anche se sbagli qualcosa, 
+puoi sempre tornare allo stato precedente. Il comando "git pull" permette
+di scaricare ed aggiornare nel repository locale le modifiche apportate 
+al repository remoto quando quest'ultimo viene aggiornato.
