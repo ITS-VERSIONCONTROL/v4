@@ -1,0 +1,29 @@
+Nome: Nicolò
+Cognome: Frighi
+Fila n.: 4
+Posizione n.: 1
+
+1. La git status permette di avere un report di 
+cosa è stato aggiunto alla staging area ma non è 
+ancora stato pushato. Con git status posso vedere 
+quindi i file non ancora pushati o non ancora 
+trackati da git add. La staging area è una delle tre 
+aree con cui git lavora. Nella staging area verranno
+messi tutti quei file non ancora committati o non 
+ancora trackati
+
+2. Git switch ti permette di passare da un branch ad
+un altro. I branch sono una ramificazione del source 
+tree originale che permette l'implementazioni 
+indipendenti. L'HEAD, semplicemente, è un puntatore 
+che permette la corretta individuazione del branch 
+corrente.
+
+3. Un repository remoto è come un database che 
+archivia le modifiche apportate al codice nel tempo. 
+Tiene traccia della cronologia del progetto e di chi 
+ha apportato le modifiche, anche se sbagli qualcosa, 
+puoi sempre tornare allo stato precedente. 
+La differenza fra un repo remoto e uno locale è la 
+locazione del progetto, nel primo caso caricato online,
+nel secondo è invece salvato nella macchina in locale.
